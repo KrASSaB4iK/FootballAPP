@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">FootballAPP</string>
+    <string name="nickname">Nickname</string>
+    <string name="court_list">COURT LIST</string>
+    <string name="chats">CHATS</string>
+    <string name="map">MAP</string>
+    <string name="PROFILE">PROFILE</string>
+    <string name="allo">ALLO</string>
+    <string name="correction">Тут будут расположены чаты</string>
+    <string name="correct1">Здесь будет поиск полей</string>
+    <string name="checkcourt">Court Example</string>
+    <string name="playerslist">Players list</string>
+    <string name="CourtChat">Court chat</string>
+    <string name="courtInfo">Тут будет отображаться вся информация о поле</string>
+    <string name="EditProfile">Edit profile</string>
+    <string name="Teammates">Teammates</string>
+    <string name="Settings">Settings</string>
+    <string name="TimeOnCourt">Time on court:</string>
+</resources>
