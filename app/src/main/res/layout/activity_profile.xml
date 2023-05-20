@@ -8,10 +8,10 @@
 
     <Button
         android:id="@+id/button8"
-        android:onClick="toastMe"
         android:layout_width="300dp"
         android:layout_height="140dp"
         android:layout_marginBottom="30dp"
+        android:onClick="infoOpen1"
         android:text="@string/EditProfile"
         android:textSize="40sp"
         app:layout_constraintBottom_toTopOf="@+id/button10"
@@ -20,7 +20,7 @@
         tools:ignore="UsingOnClickInXml" />
 
     <Button
-        android:onClick="toastMe"
+        android:onClick="infoOpen1"
         android:id="@+id/button9"
         android:textSize="40sp"
         android:layout_width="300dp"
@@ -33,7 +33,7 @@
         tools:ignore="UsingOnClickInXml" />
 
     <Button
-        android:onClick="toastMe"
+        android:onClick="infoOpen"
         android:id="@+id/button10"
         android:textSize="40sp"
         android:layout_width="300dp"

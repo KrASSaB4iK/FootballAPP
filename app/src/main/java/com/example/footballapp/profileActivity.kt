@@ -1,5 +1,6 @@
 package com.example.footballapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -11,7 +12,11 @@ class profileActivity : AppCompatActivity() {
         setContentView(R.layout.activity_profile)
     }
     fun toastMe(view: View) {
-        val toast = Toast.makeText(this, "Ведутся доработки", Toast.LENGTH_SHORT)
-        toast.show()
+        val infoOpenIntent = Intent(this, NickActivity::class.java)
+        startActivity(infoOpenIntent)
+    }
+    fun infoOpen1(view: View) {
+        val infoOpenIntent = Intent(this, NickActivity::class.java)
+        startActivity(infoOpenIntent)
     }
 }
